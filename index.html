@@ -4,14 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pitha From</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
     <H2>Welcome To Jamal Er Ma Pitha ghor</H2>
     <form>
-        <label for="name">Your name</label>
-        <input id="name" type="text" placeholder="Your name">
-        <label for="name">Youe Email</label>
-        <input id="name" type="text" placeholder="Your name">
+        <label for="name">Your Name <input id="name" type="text" placeholder="Your Name"></label>
+        <label for="email">Your Email <input id="email" type="email" placeholder="Your Email"></label>
+        <fieldset>
+            <legend>Pick One Pitha</legend>
+            <label for="Citoi">
+                <input type="radio" name="Pitha" id="Citoi">
+                Citoi
+            </label>
+            <label for="Vapa">
+                <input type="radio" name="Pitha" id="Vapa">
+                Vapa
+            </label>
+            <label for="Tal">
+                <input type="radio" name="Pitha" id="Tal">
+                Tal
+            </label>
+            <label for="Tel">
+                <input type="radio" name="Pitha" id="Tel">
+                Tel
+            </label>
+            <label for="Coconut">
+                <input type="radio" name="Pitha" id="Coconut">
+                Coconut
+            </label>
+            <label for="Dim">
+                <input type="radio" name="Pitha" id="Dim">
+                Dim
+            </label>
+        </fieldset>
+        <input type="reset" value="reset">
     </form>
 </body>
 </html>
